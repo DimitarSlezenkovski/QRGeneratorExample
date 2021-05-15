@@ -1,0 +1,83 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/dimitar/RiderProjects/QRCoderExample/QRCoderExample/QRCoderExample.csproj": {}
+  },
+  "projects": {
+    "/home/dimitar/RiderProjects/QRCoderExample/QRCoderExample/QRCoderExample.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/dimitar/RiderProjects/QRCoderExample/QRCoderExample/QRCoderExample.csproj",
+        "projectName": "QRCoderExample",
+        "projectPath": "/home/dimitar/RiderProjects/QRCoderExample/QRCoderExample/QRCoderExample.csproj",
+        "packagesPath": "/home/dimitar/.nuget/packages/",
+        "outputPath": "/home/dimitar/RiderProjects/QRCoderExample/QRCoderExample/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/dimitar/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.AspNetCore.Mvc.TagHelpers": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "QRCoder": {
+              "target": "Package",
+              "version": "[1.4.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[3.1.10, 3.1.10]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.linux-x64",
+              "version": "[3.1.14, 3.1.14]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/5.0.202/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
